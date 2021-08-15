@@ -73,6 +73,7 @@ while option <= 1:
                 cor = 'preto',
                 sex = 'masc'
             )
+            pa1['endereço'] = input('Endereço do novo lar?')
             print('Legal, aqui está a ficha do seu novo companheiro:', pa1.__dict__ )
             print(' ' * 20)
             pa1.latir()
