@@ -5,7 +5,7 @@ class chiuaua(Dog):
     def __init__( self,nome, raca, sex, cor):
         super().__init__(nome, raca, sex, cor)
 
-    def latir(self, som = 'auau'):
+    def latir(self, som = 'AUAU'):
         print(som)
 
 
@@ -13,7 +13,7 @@ class pit_bull(Dog):
     def __init__( self, nome, raca, sex, cor):  
         super().__init__( nome, raca, sex, cor)
 
-    def latir(self, som = 'auau'):
+    def latir(self, som = 'AUAU'):
         print(som)  
     
 
@@ -21,7 +21,7 @@ class pastor_alemao(Dog):
     def __init__( self, nome, raca, sex, cor):
         super().__init__( nome, raca, sex, cor)
 
-    def latir(self, som = 'auau'):
+    def latir(self, som = 'AUAU'):
         print(som)
 
 
